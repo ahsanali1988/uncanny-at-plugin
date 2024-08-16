@@ -1,0 +1,122 @@
+.uo-at-table.uo-at-table-fixed td{
+	padding: 0 5px!important;
+}
+
+.tftable, .tftable_tally {
+	/*font-size: 12px;
+	color: #333;
+	width: 100%;
+	border-width: 1px;
+	border-color: #729ea5;
+	border-collapse: collapse;*/
+}
+
+.tftable th,
+.tftable_tally th {
+	/*background: #fff;
+	font-weight: normal;
+	font-size: 14px;
+	padding: 10px;
+	color: #32373c;*/
+}
+
+.tftable thead tr,
+.tftable_tally thead tr {
+	/*background: #f1f1f1;
+	color: #444;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 13px;
+	line-height: 1.4em;
+	min-width: 600px;*/
+}
+
+.tftable td,
+.tftable_tally td {
+	/*font-size: 12px;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #729ea5;*/
+}
+
+.tftable tr:hover,
+.tftable_tally tr:hover {
+	/*background-color: #ff9;*/
+}
+
+.table-msg {
+	background-color: #0073aa;
+	padding: 15px;
+	display: block;
+	font-size: 15px;
+	color: #fafafa;
+	position: fixed;
+	top: 50px;
+	right: 0;
+	z-index: 9000;
+	width: 185px;
+	font-weight: bold;
+}
+
+.uo-at-table {
+}
+
+.uo-at-table.uo-at-table-fixed {
+	width: 100%;
+	height: 800px;
+}
+
+.uo-at-table.uo-at-table-fixed table {
+	display: flex;
+	flex-flow: column;
+
+	width: 100%;
+	height: 100%;
+
+	border-collapse: separate;
+	border-spacing: 0 1px;
+}
+
+.uo-at-table.uo-at-table-fixed table * {
+	box-sizing: border-box !important;
+	text-align: left !important;
+}
+
+.uo-at-table.uo-at-table-fixed table thead,
+.uo-at-table.uo-at-table-fixed table tfoot {
+	flex: 0 0 auto;
+	width: calc(100% - 0.9em);
+}
+
+.uo-at-table.uo-at-table-fixed table tbody {
+	flex: 1 1 auto;
+	display: block;
+	overflow-y: scroll;
+}
+
+.uo-at-table.uo-at-table-fixed table thead,
+.uo-at-table.uo-at-table-fixed table tbody tr,
+.uo-at-table.uo-at-table-fixed table tfoot {
+	display: table;
+	table-layout: fixed;
+}
+
+.uo-at-table.uo-at-table-fixed table tbody tr {
+	width: 100%;
+}
+
+.uo-at-table.uo-at-table-fixed table tbody td,
+.uo-at-table.uo-at-table-fixed table thead th,
+.uo-at-table.uo-at-table-fixed table tfoot th {
+	border-right: 1px solid transparent;
+	vertical-align: middle;
+}
+
+.uo-at-table.uo-at-table-fixed table thead th,
+.uo-at-table.uo-at-table-fixed table tfoot th {
+	text-align: left;
+}
+
+.uo-at-table.uo-at-table-fixed table tbody td {
+	text-align: left;
+}
